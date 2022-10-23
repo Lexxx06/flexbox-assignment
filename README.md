@@ -1,34 +1,35 @@
 ## Welcome! 👋
 
-To do this challenge, you need a basic understanding of HTML, CSS flexbox and media queries.
+To get the attached desktop and mobile design, the use of HTML, CSS flexbox and media queries is been implemented.
 
-## The challenge
+## The assignment
 
-Your challenge is to build the design image displayed in the images folder.
+Build the design image displayed in the images folder.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+## users:
 
-## Your users should be able to:
-
-View the optimal layout for the site depending on their device's screen size
+The user is able to View the optimal layout for the site depending on their device's screen size
 See hover states for all interactive elements on the page
-Where to find everything
+Where to find everything.
 
-You will find all the required assets in the /images folder. The assets are already optimized.
+## Building the project
 
-## Building your project
+steps:
+1. Forked the project from Coach Maggy's github account,
+2. cloned the project to my Documents using git bash,
+3. Opened the project using Vs Code
+4. Initialized git on the opened project on git bash
+5. Created index.html file where i put down the raw code before i created a css file inside the src folder where the html raw code was styled using the provided information on style-guide.md,
+6. after making changes, i added the changes to my git and commited,
+7. I pused the code to the existing reposity to update the changes i made.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
-
-1. Initialize your project as a public repository on GitHub. This will make it easier to share your code with the community if you need some help. If you're not sure how to do this, have a read through of this Try Git resource.
-2. Configure your repository to publish your code to a URL. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, but we recommend using netlify.
-
-## Deploying your project
-
-As mentioned above, there are a number of ways to host your project for free. We recommend using netflify as it's an amazing service and extremely simple to get set up with.
-
-3. Sign up to netlify and go through the onboarding flow, ensuring your GitHub account is connected by using their netlify for GitHub integration.
-4. Connect your project to netlify from the "Import project" page, using the "From Git Repository" button and selecting the project you want to deploy.
-   Once connected, every time you git push, netlify will create a new deployment and the deployment URL will be shown on your Dashboard.
+## Deploying the project
+Steps Taken:
+1. I Opened netlify and signed in using my github account,
+2. Click on deploy,
+3. Click on Import an existing repository,
+4. Connect to your github account and select the code you just pushed from git bash,
+5. Select the existing branch the repository is on,
+6. Click on deploy.
 
 **Have fun building!** 🚀

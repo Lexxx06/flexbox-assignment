@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&family=Lexend+Deca:wght@300&display=swap');
+  
 
 *{
     padding: 0;
@@ -29,6 +30,7 @@ h2{
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
     margin-bottom: 7px;
+    font-size: 10vh;
 }
 
 p{
@@ -99,4 +101,29 @@ button{
     color: white;
     border: 2px solid white;
     transition: 1s ease;
+}
+
+@media (max-width:768px){
+    main{
+        flex-direction: column;
+        margin-top: 90px;
+        height: auto;
+    }
+    div{
+        width: 70vw;
+        height: 30vh;
+    }
+    .sedans{
+        border-radius: 10px 10px 0 0;
+    }
+    .luxury{
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+
+@media (max-width:480px){
+    div{
+        height: auto;
+    }
 }
